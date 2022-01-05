@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-image: url(../images/mapa2.jpg);
+}
 
 .agrupar{
     width: 100%;
@@ -69,13 +72,14 @@
 .ver{
     width: 158px;
     height: 55px;
-    box-shadow: 2px 2px 4px #000000BA;
+    box-shadow: 2px 2px 4px hsla(0, 0%, 0%, 0.729);
     border: 2px solid #BF0006;
+    background-color: #BF0006;
     border-radius: 8px;
     text-align: center;
     font: normal normal bold 31px/36px Arial;
     letter-spacing: 0px;
-    color: #BF0006;
+    color: #F5B556;
     margin: 71px auto;    
 }
 .paginacao{
