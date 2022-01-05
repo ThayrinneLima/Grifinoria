@@ -2,6 +2,7 @@ body{
     background: #E7A64E 0% 0% no-repeat padding-box;
     background-image: url(../images/mapa.jpg) ;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 a{
@@ -15,6 +16,7 @@ a{
     box-shadow: 0px 3px 6px #00000029;
     position: fixed;
     top:0;
+    z-index: 99;
     }
     .titulo{
         margin-left: 31px;
